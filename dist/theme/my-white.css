@@ -83,11 +83,6 @@ section.has-dark-background h6 {
   font-weight: inherit;
 }
 
-/* Ensure normal text is left-aligned */
-.reveal .slides p {
-  text-align: left;
-}
-
 /*********************************************
  * HEADERS
  *********************************************/
