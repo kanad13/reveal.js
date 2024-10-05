@@ -30,6 +30,7 @@ section.has-dark-background h6 {
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Montserrat, sans-serif;
   --r-heading-color: #0D99FF;
+  --r-heading2-color: #2CD997;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: uppercase;
@@ -82,6 +83,11 @@ section.has-dark-background h6 {
   font-weight: inherit;
 }
 
+/* Ensure normal text is left-aligned */
+.reveal .slides p {
+  text-align: left;
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
@@ -102,13 +108,11 @@ section.has-dark-background h6 {
   word-wrap: break-word;
 }
 
-.reveal h1,
-.reveal .slides>section>p:first-child {
+.reveal h1 {
   font-size: var(--r-heading1-size);
 }
 
-.reveal h2,
-.reveal .slides>section>p:first-child {
+.reveal h2 {
   font-size: var(--r-heading2-size);
 }
 
@@ -122,6 +126,10 @@ section.has-dark-background h6 {
 
 .reveal h1 {
   text-shadow: var(--r-heading1-text-shadow);
+}
+
+.reveal h2 {
+  color: var(--r-heading2-color);
 }
 
 /*********************************************
