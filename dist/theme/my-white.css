@@ -123,14 +123,17 @@ section.has-dark-background h6 {
 
 .reveal h1 {
   text-shadow: var(--r-heading1-text-shadow);
+  text-transform: none;
 }
 
 .reveal h2 {
   color: var(--r-heading2-color);
+  text-transform: none;
 }
 
 .reveal h3 {
   color: var(--r-heading3-color);
+  text-transform: none;
 }
 
 .reveal h4 {
