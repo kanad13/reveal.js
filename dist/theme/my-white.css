@@ -139,6 +139,7 @@ section.has-dark-background h6 {
 .reveal h4 {
   color: var(--r-heading4-color);
   text-transform: none;
+  text-align: left;
 }
 
 .reveal h5 {
